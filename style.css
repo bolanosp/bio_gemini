@@ -69,11 +69,23 @@ section {
 
 /* Imagenes */
 
+/* Imagenes */
+
 section img {
   display: block;
   margin: 0 auto;
-  width: 50%;
+  max-width: 80%;
+  border-radius: 25%;
 }
+
+#imagen-quien-soy {
+  max-width: 50%;
+}
+
+#imagen-experiencia, #imagen-educacion, #imagen-contacto {
+  max-width: 70%;
+}
+
 
 /* Botones */
 
