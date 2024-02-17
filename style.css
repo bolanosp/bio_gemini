@@ -69,16 +69,12 @@ section {
 section img {
   display: block;
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 50%; /* Se ha cambiado el valor de max-width */
   border-radius: 10px;
 }
 
 #imagen-quien-soy {
-  max-width: 50%;
-}
-
-#imagen-experiencia, #imagen-educacion, #imagen-contacto {
-  max-width: 70%;
+  max-width: 70%; /* Se ha cambiado el valor de max-width */
 }
 
 /* Botones */
