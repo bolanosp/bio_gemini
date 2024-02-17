@@ -52,19 +52,19 @@ section {
 }
 
 #quien-soy {
-  background-color: #f0f8ff; /* Azul pastel */
+  background-color: #f5f5f5;
 }
 
 #experiencia {
-  background-color: #fff9e6; /* Amarillo pastel */
+  background-color: #fafafa;
 }
 
 #educacion {
-  background-color: #ffebf3; /* Rosa pastel */
+  background-color: #f0f0f0;
 }
 
 #contacto {
-  background-color: #f0f8ff; /* Azul pastel */
+  background-color: #f5f5f5;
 }
 
 /* Imagenes */
@@ -81,21 +81,4 @@ section img {
   display: inline-block;
   padding: 10px 15px;
   border: 1px solid #ddd;
-  border-radius: 5px;
-  text-decoration: none;
-  margin: 10px;
-  background-color: #f2f2f2;
-}
-
-.boton:hover {
-  background-color: #ddd;
-}
-
-/* Centrar elementos */
-
-header,
-main,
-section p,
-.boton {
-  text-align: center;
-}
+  border-radius: 5px
