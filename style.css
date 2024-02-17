@@ -48,22 +48,23 @@ h2 {
 section {
   padding: 20px;
   border-bottom: 1px solid #ddd;
+  text-align: center;
 }
 
 #quien-soy {
-  background-color: #f5f5f5;
+  background-color: #f0f8ff; /* Azul pastel */
 }
 
 #experiencia {
-  background-color: #fafafa;
+  background-color: #fff9e6; /* Amarillo pastel */
 }
 
 #educacion {
-  background-color: #f0f0f0;
+  background-color: #ffebf3; /* Rosa pastel */
 }
 
 #contacto {
-  background-color: #f5f5f5;
+  background-color: #f0f8ff; /* Azul pastel */
 }
 
 /* Imagenes */
@@ -87,3 +88,14 @@ section img {
 }
 
 .boton:hover {
+  background-color: #ddd;
+}
+
+/* Centrar elementos */
+
+header,
+main,
+section p,
+.boton {
+  text-align: center;
+}
