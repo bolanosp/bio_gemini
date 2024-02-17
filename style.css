@@ -69,12 +69,13 @@ section {
 section img {
   display: block;
   margin: 0 auto;
-  max-width: 50%; /* Se ha cambiado el valor de max-width */
-  border-radius: 10px;
+  max-width: 25%; /* Se ha cambiado el valor de max-width */
+  border-radius: 50%; /* Se ha cambiado el valor de border-radius */
+  box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Se ha añadido una sombra */
 }
 
 #imagen-quien-soy {
-  max-width: 70%; /* Se ha cambiado el valor de max-width */
+  max-width: 35%; /* Se ha cambiado el valor de max-width */
 }
 
 /* Botones */
